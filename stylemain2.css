@@ -291,15 +291,8 @@ text-align: center;
 
  h1.committe-title{
    font-family:arial;
-   font-size: 25px;
-  background-color:#FFF5EE;
- text-align:center;
- line-height:10px;
- padding:10px 50px;
- width:1000px;
- border: 1px solid #222;
- border-radius: 2px;
- font-color: #FFFFFF;
+   text-align:center;
+   font-color: #222;
 }
 
 h2.name-title{
