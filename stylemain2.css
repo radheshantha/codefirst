@@ -287,3 +287,19 @@ text-align: center;
  background:#222;
 
 }
+
+
+ h1.committe-title{
+   font-family:arial;
+   color:#222;
+}
+
+h2.name-title{
+  font-family:arial;
+  color:#222;
+}
+
+p.paragraph-text{
+  font-family: arial;
+  color:#222;
+}
