@@ -46,8 +46,9 @@
 
 
 <form action="thankyou.php" method="post" id="create-form">
-  <h2 class="form-group"> Enquiries Form</h2>
+ 
 <div type="text" class="form-group">
+   <h2 class="form-group"> Enquiries Form</h2>
 <label for="your_name" class="form-control">Name</label>
 <input type="text" class="form-control" name="your_name" required>
 <label for="exampleInputEmail1" class="form-control">Email address</label>
