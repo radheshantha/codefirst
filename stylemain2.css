@@ -265,7 +265,7 @@ text-align: center;
 
 }
 /*for enquiries for heading*/
-h2 {
+h2.enquirieshead {
 
   font-family:arial;
   font-size: 25px;
@@ -275,6 +275,23 @@ line-height:10px;
 padding:5px 10px;
 width:620px;
 
+ border-radius: 4px;
+ float: center;
+
+
+
+}
+/* popup heading subscribe*/
+h2.pophead {
+
+  font-family:arial;
+  font-size: 25px;
+text-align:center;
+line-height:10px;
+padding:5px 5px 5px;
+width:620px;
+margin-top: 1px;
+margin-bottom: 20px;
  border-radius: 4px;
  float: center;
 
