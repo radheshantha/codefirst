@@ -43,10 +43,10 @@
 <div class="container">
 <div class="row">
 <div class="col-md-8">
-  <h2 style="color:black" class="form-group"> Enquiries Form</h2>
+
 
 <form action="thankyou.php" method="post" id="create-form" style="color:black">
-
+  <h2 class="form-group"> Enquiries Form</h2>
 <div type="text" class="form-group">
 <label for="your_name" class="form-control">Name</label>
 <input type="text" class="form-control" name="your_name" required>
