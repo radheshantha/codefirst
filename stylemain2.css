@@ -265,16 +265,16 @@ text-align: center;
 
 }
 /*for enquiries for heading*/
-h2.enquirieshead {
+h2.formhead {
 
   font-family:arial;
   font-size: 25px;
-background-color: #FFFFFF;
 text-align:center;
 line-height:10px;
-padding:5px 10px;
-width:620px;
-
+padding:5px 5px 5px;
+width:600px;
+margin-top: 1px;
+margin-bottom: 20px;
  border-radius: 4px;
  float: center;
 
@@ -304,6 +304,8 @@ background-color: #FFFFFF;
 font-color:##000000	;
 padding: 10px 10px;
 margin-top: 150px;
+border: 20px solid #222;
+ border-radius: 4px;
 
 }
 /*code for button*/
