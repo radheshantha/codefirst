@@ -126,7 +126,7 @@ background-color: #f3f3f3;
 
 }
 
-
+/*Reference: Creating an Email Subscription Popup using jQuery, by Codex World*/
 .popup-id{
 
     position: relative;
@@ -151,7 +151,7 @@ background-color: #f3f3f3;
     left: 57%;
     margin-left: -50px;
     top: 50%;
-    margin-top: -50px;
+    margin-top: -10px;
     transform: translate(-50%, -50%);
     background-color: #222;
     color: #FFFFFF;
