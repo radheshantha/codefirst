@@ -45,16 +45,15 @@
 <div class="col-md-8">
 
 
-<form action="thankyou.php" method="post" id="create-form" style="color:black">
+<form action="thankyou.php" method="post" id="create-form">
   <h2 class="form-group"> Enquiries Form</h2>
 <div type="text" class="form-group">
 <label for="your_name" class="form-control">Name</label>
 <input type="text" class="form-control" name="your_name" required>
-</div>
-<div class="form-group">
 <label for="exampleInputEmail1" class="form-control">Email address</label>
 <input type="email" class="form-control" name="your_email" required>
-</div>
+
+<!--
 <div class="from-group">
 <label class="form-control">Sponsor Us
   <input name="sponsor" value="yes" type="checkbox">
@@ -75,18 +74,12 @@
   <input name="general" value="yes" type="checkbox">
   <span class="checkmark"></span>
 </div>
-<div class="form-group">
+-->
 <label for="enquiry-subject" class="form-control">Enquiry subject</label>
-<input type="text"  name="your_subject" required>
-</div>
-<div class="form-group">
+<input type="text"name="your_subject" required><br>
 <label for="Ask your question here" class="form-control">Submit your enquiry here</label>
-<textarea name="your_question" class="form-control" rows="3" cols="28" rows="5"
-required></textarea>
-</div>
-
-
-
+<textarea placeholder="Ask your question here" name="your_question" class="form-control" rows="3" cols="28" rows="5"
+required></textarea><br>
 <button type="submit" class="btn btn-primary" name="submit" value="Submit" id="submit_form">Submit</button>
 
 </form>
