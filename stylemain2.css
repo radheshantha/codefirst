@@ -264,8 +264,30 @@ text-align: center;
  border-radius: 4px;
 
 }
+/*for enquiries for heading*/
+h2 {
+
+  font-family:arial;
+  font-size: 25px;
+background-color: #FFFFFF;
+text-align:center;
+line-height:10px;
+padding:5px 10px;
+width:620px;
+
+ border-radius: 4px;
+ float: center;
 
 
+
+}
+/*for enquiries form class*/
+.form-group{
+background-color: #FFFFFF;
+font-color:##000000	;
+padding: 10px 10px;
+
+}
 /*code for button*/
 .form button{
  font-family:"Roboto",sans-serif;
