@@ -13,7 +13,7 @@
 
 <ul>
 
-<li><a href=""> Home </a></li>
+<li><a href="home2.php"> Home </a></li>
 <li><a href="#"> About us</a>
 <ul>
   <li><a href=""> Connect with the committee</a></li><br>
@@ -23,7 +23,7 @@
 <li><a href="#"> Events </a></li>
 <li><a href="#"> Join us</a></li>
 <li><a href="#"> Support us</a></li>
-<li><a href="#"> Contact us</a>
+<li><a href="enquiriesform.php"> Contact us</a>
 <ul>
   <li><a href="enquiriesform.php"> Enquiries form</a></li><br>
   <li><a href=""> Suggestions form</a></li>
@@ -46,9 +46,10 @@
 
 
 <form action="thankyou.php" method="post" id="create-form">
- 
+
+
 <div type="text" class="form-group">
-<h2 class="formhead"> Enquiries Form</h2>
+    <h2 class="formhead"> Enquiries Form</h2>
 <label for="your_name" class="form-control">Name</label>
 <input type="text" class="form-control" name="your_name" required>
 <label for="exampleInputEmail1" class="form-control">Email address</label>

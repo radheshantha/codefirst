@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>Home</title>
+<link rel="stylesheet" type="text/css" href="stylemain2.css">
+</head>
+
+<body>
+  <nav id="MainWrapper">
+  <header>
+          <img class="header" src ="st_logo.png"/>
+</header>
+
+
+<ul>
+
+<li><a href=""> Home </a></li>
+<li><a href="#"> About us</a>
+<ul>
+  <li><a href=""> Connect with the committee</a></li><br>
+  <li><a href=""> Learn about our alumni </a></li>
+</ul>
+</li>
+<li><a href="#"> Events </a></li>
+<li><a href="#"> Join us</a></li>
+<li><a href="#"> Support us</a></li>
+<li><a href="#"> Contact us</a>
+<ul>
+  <li><a href=""> Enquiries form</a></li><br>
+  <li><a href=""> Suggestions form</a></li>
+</ul>
+</li>
+</ul>
+
+
+</nav>
+<!--adding a mailing list popup-->
+
+ <div id="list-builder"></div>
+ <div id="popup-box">
+     <img src="close-button.png" id="popup-close" />
+     <div id="popup-box-content">
+         <h1>Subscribe to The BiotechSociety Newsletter</h1>
+         <p>
+             Stay up to date on our latest BioTech events by subscribing to our newsletter.
+         </p>
+         <form id="popup-form" action="subscribeform.php">
+             <input type="hidden" name="list" value="key_list_etc" />
+             <input type="text" name="name" placeholder="Full Name" />
+             <input type="text" name="email" placeholder="Email Address" />
+             <button type="submit" name="submit">Subscribe</button>
+         </form>
+     </div>
+ </div>
+ <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+ <script src="list-builder.js"></script>
+
+ <div class="container">
+
+
+</div>
+
+
+
+</body>
+</html>
