@@ -333,8 +333,15 @@ border: 20px solid #222;
 
  h1.committe-title{
    font-family:arial;
-   text-align:center;
-   font-color: #222;
+   font-size: 25px;
+  background-color:#FFF5EE;
+ text-align:left;
+ line-height:10px;
+ padding:10px 50px;
+ width:1000px;
+ border: 1px solid #222;
+ border-radius: 2px;
+ font-color: #3658C7;
 }
 
 h2.name-title{
