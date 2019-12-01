@@ -350,6 +350,14 @@ h2.name-title{
 }
 
 p.paragraph-text{
-  font-family: arial;
-  color:#222;
+  ont-family:arial;
+  font-size: 25px;
+  background-color:#FFF5EE;
+  text-align:left;
+  line-height:10px;
+  padding:10px 50px;
+  width:1000px;
+  border: 1px solid #222;
+  border-radius: 2px;
+  font-color: #3658C7;
 }
