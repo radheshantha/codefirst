@@ -49,7 +49,7 @@
 
 
 <div type="text" class="form-group">
-    <h2 class="formhead"> Enquiries Form</h2>
+    <h2 class="formhead"> Become a Biotech Society Member</h2>
 <label for="your_name" class="form-control">Name</label>
 <input type="text" class="form-control" name="your_name" required>
 <label for="exampleInputEmail1" class="form-control">Email address</label>
@@ -77,14 +77,31 @@
   <span class="checkmark"></span>
 </div>
 -->
-<label for="enquiry-subject" class="form-control">Enquiry subject</label>
-<input type="text"name="your_subject" required><br>
-<label for="Ask your question here" class="form-control">Submit your enquiry here</label>
-<textarea placeholder="Ask your question here" name="your_question" class="form-control" rows="3" cols="28" rows="5"
+
+<label for="Tell us about yourself!" class="form-control">Tell us about yourself! </label>
+<textarea placeholder="Optional" name="yourself" class="form-control" rows="3" cols="28" rows="5"
 required></textarea><br>
-<button type="submit" class="btn btn-primary" name="submit" value="Submit" id="submit_form">Submit</button>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_xclick">
+<input type="hidden" name="business" value="biotech.st.andrews@gmail.com">
+<input type="hidden" name="lc" value="US">
+<input type="hidden" name="item_name" value="BioTech Membership">
+<input type="hidden" name="amount" value="3.00">
+<input type="hidden" name="currency_code" value="GBP">
+<input type="hidden" name="button_subtype" value="services">
+<input type="hidden" name="no_note" value="0">
+<input type="hidden" name="tax_rate" value="0.000">
+<input type="hidden" name="shipping" value="0.00">
+<input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHostedGuest">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+
+
 
 </form>
+
+
 
 </div>
 </div>

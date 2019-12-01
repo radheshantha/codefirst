@@ -22,7 +22,7 @@
 </ul>
 </li>
 <li><a href="#"> Events </a></li>
-<li><a href="#"> Join us</a></li>
+<li><a href="joinus.php"> Join us</a></li>
 <li><a href="#"> Support us</a></li>
 <li><a href="enquiriesform.php"> Contact us</a>
 <ul>
