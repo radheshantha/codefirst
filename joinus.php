@@ -25,7 +25,7 @@
 <li><a href="home2.php"> Home </a></li>
 <li><a href="#"> About us</a>
 <ul>
-  <li><a href=""> Connect with the committee</a></li><br>
+  <li><a href="./committee.html"> Connect with the committee</a></li><br>
   <li><a href=""> Learn about our alumni </a></li>
 </ul>
 </li>
