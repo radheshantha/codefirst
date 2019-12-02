@@ -29,7 +29,7 @@
   <li><a href=""> Learn about our alumni </a></li>
 </ul>
 </li>
-<li><a href="#"> Events </a></li>
+<li><a href="eventspage.php"> Events </a></li>
 <li><a href="joinus.php"> Join us</a></li>
 <li><a href="#"> Support us</a></li>
 <li><a href="enquiriesform.php"> Contact us</a>

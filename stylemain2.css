@@ -210,11 +210,16 @@ background-color: #f3f3f3;
     background-color: #222;
     font-size: 40px;
     font-weight: bold;
-  margin-left: 600px;
+  margin-left: 578px;
   position: relative;
  left: 0.4em;
- bottom: 1.8em;
+ bottom: 0.4em;
 
+}
+.close:hover, .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
 }
 input[type=text] {
     padding:5px;

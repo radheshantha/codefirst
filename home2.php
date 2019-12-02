@@ -21,7 +21,7 @@
   <li><a href=""> Learn about our alumni </a></li>
 </ul>
 </li>
-<li><a href="#"> Events </a></li>
+<li><a href="eventspage.php"> Events </a></li>
 <li><a href="joinus.php"> Join us</a></li>
 <li><a href="#"> Support us</a></li>
 <li><a href="enquiriesform.php"> Contact us</a>
@@ -67,7 +67,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js">
 </script>
  <!--cookie plugin checks if the popup has been shown to user-->
- <script src="popup.cookie.js"></script>
+ <script src="jquery.cookie.js"></script>
 
 
 
