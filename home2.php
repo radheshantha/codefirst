@@ -6,22 +6,28 @@
 </head>
 
 <body>
+  <style>
+  body{
+    background-image:linear-gradient(rgba(0,0,1,0.3),rgba(0,0,0,0.3))
+    ,url("dna2.png");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;}
+</style>
   <nav id="MainWrapper">
   <header>
           <img class="header" src ="st_logo.png"/>
 </header>
-
-
 <ul>
 
 <li><a href="home2.php"> Home </a></li>
 <li><a href="#"> About us</a>
 <ul>
-  <li><a href=""> Connect with the committee</a></li><br>
-  <li><a href=""> Learn about our alumni </a></li>
+  <li><a href="committee.php"> Connect with the committee</a></li><br>
+  <li><a href="alumni.php"> Learn about our alumni </a></li>
 </ul>
 </li>
-<li><a href="eventspage.php"> Events </a></li>
+<li><a href="eventstest.php"> Events </a></li>
 <li><a href="joinus.php"> Join us</a></li>
 <li><a href="#"> Support us</a></li>
 <li><a href="enquiriesform.php"> Contact us</a>
@@ -36,8 +42,6 @@
 </nav>
 <!--adding a mailing list popup-->
 
-
-<div class="container" >
      <div id="popup-id" class="popup-class">
      <div class="popupcontent">
        <div class="popupheading">
@@ -52,7 +56,7 @@
 
              <input type="text" name="name" placeholder="Full Name" />
              <input type="text" name="email" placeholder="Email Address" />
-             <button type="submit" name="submit" >Subscribe</button>
+             <button type="submit" name="submit" onclick=window.location.href = 'home2.php'>Subscribe</button>
          </form>
          <div class="popupfoot">
            <p>

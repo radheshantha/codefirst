@@ -1,7 +1,7 @@
 /*the subsciption popup takes care of opening and closing the popup*/
 function subscriptionPopup(){
     // get the popup-id (this is the id we set for the popup in html)
-    //popup-class is the class set for the sucribe form
+    //popup-class is the class set for the subscribe form
     var popup-class = $('#popup-id');
     //next we have to open the popup
     // open the popup box
@@ -11,17 +11,7 @@ $(".close").on('click',function(){
         popup-class.hide();
     });
 
-    // close the popup when user clicks outside of the box
-    //thetarget property that refers to the actual element clicked
-    //"click" is an event (when the selected element is clicked). "function(e)"
-    //is the event handling function (on event, object is created).
-
-   $(window).on('click', function(e) {
-       if(e.target == popup-class[0]){
-           popup-class.hide();
-       }
-   });
-}
+    
 
 //we’ll use jQuery cookie to check whether the popup has already
 //been shown to the visitor

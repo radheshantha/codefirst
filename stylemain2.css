@@ -4,8 +4,8 @@ padding:0;
 
 }
 body{
-  background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8))
-  ,url("biotechsoc.png");
+  background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3))
+  ,url("pablo-4.png");
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -186,12 +186,14 @@ background-color: #f3f3f3;
 
 .popup-id form {
     margin-bottom: 0px;
+
 }
 
 .popup-id input {
     padding: 10px;
     border: 3px solid #333;
     width: 40%;
+
 }
 
 
@@ -216,6 +218,7 @@ background-color: #f3f3f3;
  bottom: 0.4em;
 
 }
+
 .close:hover, .close:focus {
     color: #000;
     text-decoration: none;

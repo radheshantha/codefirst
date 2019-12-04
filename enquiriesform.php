@@ -1,4 +1,4 @@
-<html>
+Malpensa Airport MXPMalpensa Airport MXP<html>
 <head>
 <title>Home</title>
 <link rel="stylesheet" type="text/css" href="stylemain2.css">
@@ -7,7 +7,7 @@
 <body>
   <style>
   body{
-    background-image:linear-gradient(rgba(0,0,1,0.6),rgba(0,0,0,0.6))
+    background-image:linear-gradient(rgba(0,0,1,0.3),rgba(0,0,0,0.3))
     ,url("dog.jpg");
     height: 100vh;
     background-size: cover;
@@ -24,11 +24,11 @@
 <li><a href="home2.php"> Home </a></li>
 <li><a href="#"> About us</a>
 <ul>
-  <li><a href=""> Connect with the committee</a></li><br>
-  <li><a href=""> Learn about our alumni </a></li>
+  <li><a href="commitee.php"> Connect with the committee</a></li><br>
+  <li><a href="alumini.php"> Learn about our alumni </a></li>
 </ul>
 </li>
-<li><a href="#"> Events </a></li>
+<li><a href="eventstest.php"> Events </a></li>
 <li><a href="joinus.php"> Join us</a></li>
 <li><a href="#"> Support us</a></li>
 <li><a href="enquiriesform.php"> Contact us</a>
